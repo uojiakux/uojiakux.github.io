@@ -1,0 +1,231 @@
+body {
+    background-image: url(../images/dust_scratches.png);
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.About_Text {
+    line-height: 25px;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding: 6px;
+    z-index: 1;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50%;
+    padding-right: 50%;
+    position: fixed;
+    top: 92%;
+    right: 0%;
+    z-index: 5;
+}
+
+.inputboxes {
+    width: 97%;
+    padding: 5px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Message input box */
+
+#Message-Textbox {
+    width: 95.5%;
+    height: 150px;
+    padding: 15px;
+    box-sizing: content-box;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Middle White Container  */
+
+.Body {
+    width: 960px;
+    background-color: #ffffff;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+    border: 1px solid #dddddd;
+}
+
+#Portfolio_Body {
+    height: 830px;
+}
+
+#Title {
+    position: relative;
+    top: 0%;
+    right: -17%;
+    display: block;
+    width: 260px;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin-left: 122px;
+    margin-top: -7px;
+    margin-bottom: -6px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#LinkOne {
+    position: fixed;
+    top: 4%;
+    right: 15%;
+    color: #777777;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#LinkTwo {
+    position:fixed;
+    top: 4%;
+    right: 9.4%;
+    color: #777777;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#LinkThree {
+    position: fixed;
+    top: 4%;
+    right: 5%;
+    color: #777777;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#Subtitle {
+    color: #4aaaa5;
+    margin-top: 7px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 23px;
+    font-size: 32px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#My_Picture {
+    float: left;
+    margin: 20px;
+}
+
+.Pictures {
+    width: 280px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
+#RPG {
+    position: relative;
+    left: 0px;
+    bottom: 69px;
+}
+
+#Rutgers {
+    position: relative;
+    left: 310px;
+    bottom: 942px;
+}
+
+#Rock {
+    position: relative;
+    left: 310px;
+    bottom: 1011px;
+}
+
+#Trivia {
+    position: relative;
+    left: 0px;
+    bottom: 136px;
+}
+
+.Overlay_Text {
+    background-color: #4aaaa5;
+    width: 280px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 1px;
+    padding-right: 1px;
+    z-index: 2;
+}
+
+#HangmanOverlay {
+    position: relative;
+    bottom: 114px;
+    left: -1px;
+}
+
+#TriviaOverlay {
+    position: relative;
+    bottom: 496px;
+    left: -1px;
+}
+
+#RockOverlay {
+    position: relative;
+    bottom: 876px;
+    left: -1px;
+}
+
+#RPGOverlay {
+    position: relative;
+    bottom: 428px;
+    left: 309px;
+}
+
+#RutgersOverlay {
+    position: relative;
+    bottom: 809px;
+    left: 310px;
+}
+
+p.Text {
+    color: white;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
